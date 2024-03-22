@@ -38,8 +38,17 @@ body {
     text-align: center;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(205, 225, 128);
     min-height: 150px;
+}
+.logo {
+    width: 100px;
+}
+.title {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 30px auto;
+    color: rgb(120, 140, 43);
 }
 .content {
     background-color: white;
@@ -47,7 +56,7 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(180, 210, 65);
+    background-color: rgb(120, 140, 43);
     min-height: 150px;
 }
 .fa-brands {
@@ -56,7 +65,7 @@ body {
     font-size: 25px;
 }
 .fa-brands:hover {
-    color: rgb(120, 140, 43);
+    color: rgb(180, 210, 65);
     cursor: pointer;
 }
 .footer-links {
