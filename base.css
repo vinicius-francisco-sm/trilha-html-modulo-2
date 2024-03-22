@@ -47,8 +47,9 @@ body {
     min-height: 150px;
 }
 .fa-brands {
-    width: 20px;
+    width: 30px;
     color: #ddd;
+    font-size: 25px;
 }
 .fa-brands:hover {
     color: rgb(120, 140, 43);
@@ -56,5 +57,5 @@ body {
 }
 .footer-links {
     text-align: center;
-    margin: 20px 20px auto;
+    margin-top: 50px;
 }
