@@ -7,7 +7,6 @@ body {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
@@ -55,19 +54,8 @@ body {
     min-height: 300px;
     padding: 20px;
 }
-.content-block {
-    display: flex;
-    align-items: center;
-}
-.content-block img {
-    width: 50%;
-}
-.content-block button {
-    margin: 5px;
-    cursor: pointer;
-}
 .footer {
-    background-color: rgb(120, 140, 43);
+    background-color: #788c2b;
     min-height: 150px;
 }
 .fa-brands {
