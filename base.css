@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 .main {
     display: flex;
@@ -20,8 +20,20 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    /*background-color: aqua;*/
     padding: 10px 20px 0px;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu li {
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.menu li:hover {
+    background-color: #dfdbdb;
 }
 .header {
     background-color: rgb(5, 108, 108);
