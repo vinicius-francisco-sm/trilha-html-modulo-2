@@ -55,6 +55,17 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+.content-block {
+    display: flex;
+    align-items: center;
+}
+.content-block img {
+    width: 50%;
+}
+.content-block button {
+    margin: 5px;
+    cursor: pointer;
+}
 .footer {
     background-color: rgb(120, 140, 43);
     min-height: 150px;
