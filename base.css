@@ -11,7 +11,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    /*background-color: aquamarine;*/
 }
 .main {
     display: flex;
@@ -20,7 +19,7 @@ body {
 }
 .menu {
     width: 15%;
-    /*background-color: aqua;*/
+    background-color: rgb(210, 216, 184);
     padding: 10px 20px 0px;
 }
 .menu a {
@@ -30,10 +29,9 @@ body {
     list-style: none;
     margin-bottom: 5px;
     padding: 5px;
-    text-align: center;
 }
 .menu li:hover {
-    background-color: #dfdbdb;
+    background-color: #b8b5b5;
 }
 .header {
     background-color: rgb(5, 108, 108);
@@ -45,6 +43,18 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(180, 210, 65);
     min-height: 150px;
+}
+.fa-brands {
+    width: 20px;
+    color: #ddd;
+}
+.fa-brands:hover {
+    color: rgb(120, 140, 43);
+    cursor: pointer;
+}
+.footer-links {
+    text-align: center;
+    margin: 20px 20px auto;
 }
