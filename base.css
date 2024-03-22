@@ -5,6 +5,7 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -23,15 +24,18 @@ body {
     padding: 10px 20px 0px;
 }
 .menu a {
-    text-decoration: none;
-}
-.menu li {
-    list-style: none;
+    display: block;
     margin-bottom: 5px;
     padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
-.menu li:hover {
-    background-color: #b8b5b5;
+.menu a:hover {
+    background-color: rgb(187, 192, 162);
+}
+.menu h2 {
+    text-align: center;
 }
 .header {
     background-color: rgb(5, 108, 108);
